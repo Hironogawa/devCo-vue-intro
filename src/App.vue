@@ -1,6 +1,9 @@
 <script setup>
 import HelloWorld from "./components/OptionAPI/HelloWorld.vue";
 // import HelloWorld from "./components/CompositionAPI/HelloWorld.vue";
+
+import GetCat from "./components/OptionAPI/RandomCatImage.vue";
+
 import TheWelcome from "./components/TheWelcome.vue";
 </script>
 
@@ -16,6 +19,7 @@ import TheWelcome from "./components/TheWelcome.vue";
 
     <div class="wrapper">
       <HelloWorld msg="This is passed to to the component, you did it!" />
+      <GetCat />
     </div>
   </header>
 
